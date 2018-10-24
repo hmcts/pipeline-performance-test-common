@@ -3,7 +3,7 @@ This is repository for pipeline performance test common framework. for every pro
 Step1: download the common framework from the repository
 Step2: add all the source files under src/gatling simulations directory.
 step3: under src/gatling/simulations following is the folder structure we need to add the files
-uk/gov/hmcts/reform/cmc/performance.
+uk/gov/hmcts/reform/cmc/performance(here cmc can be replaced by relavant project name like sscs, sidam,probate etc)
 Step4: under uk/gov/hmcts/reform/cmc/performance/utils add one file called Environment.scala file 
 Step5: add the AAT urls within the Environment.scala
 Step6: add data files in the following locations
