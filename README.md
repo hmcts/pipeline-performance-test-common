@@ -11,3 +11,11 @@ src/gatling/data and srs/test/resources/data
 Step7: add bodies files in the following locations
 src/gatling/bodies and srs/test/resources/bodies
 Step8: Run the simulation using srs/gatling/simulations/Run...
+Step9: open the jenkinsfile_nightly and update the following code with project specific urls 
+ string(name: 'URL_TO_TEST', defaultValue: 'https://div-pfe-aat.service.core-compute-aat.internal', description: 'The URL you want to run these tests against'),
+                string(name: 'IDAM_URL', defaultValue: 'https://preprod-idamapi.reform.hmcts.net:3511', description: 'The IDAM API Url to create and delete users from'),
+                string(name: 'IDAM_WEB_URL', defaultValue: 'https://idam.preprod.ccidam.reform.hmcts.net', description: 'The IDAM Loging Url')
+ 
+ def product = "cmc"(change the project component like sscs,probate,sidam etc)
+
+                
