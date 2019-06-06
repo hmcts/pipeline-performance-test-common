@@ -1,4 +1,4 @@
-# project name
+# performance test \<project name\>
 
 This is repository for   common performance test framework. for every project we need to add the following steps for the individual project.
 - Step1: download the common framework from the repository
