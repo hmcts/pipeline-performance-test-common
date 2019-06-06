@@ -1,4 +1,4 @@
-# pipeline-performance-test-common
+# project name
 
 This is repository for pipeline performance test common framework. for every project we need to add the following steps for the pipeline project.
 - Step1: download the common framework from the repository
@@ -17,6 +17,6 @@ src/gatling/bodies and srs/test/resources/bodies
                 string(name: 'IDAM_URL', defaultValue: 'https://preprod-idamapi.reform.hmcts.net:3511', description: 'The IDAM API Url to create and delete users from'),
                 string(name: 'IDAM_WEB_URL', defaultValue: 'https://idam.preprod.ccidam.reform.hmcts.net', description: 'The IDAM Loging Url')
  
- def product = "cmc"(change the project component like sscs,probate,sidam etc)
+ def product = "project name"(change the project component like sscs,probate,sidam etc)
 
                 
